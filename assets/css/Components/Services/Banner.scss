@@ -1,0 +1,154 @@
+        .banner {
+        position: relative;
+        height: 207px;
+        margin-bottom: 20px;
+        background: url(https://www.marry.vn/wp-content/plugins/ringier-v1/app/Views/_assets/images/xbg_header.jpg.pagespeed.ic.PnhXNMPYIf.jpg);
+        .cover__inner {
+            .container {
+                &:before {
+                    content: " ";
+                    display: table;
+                    .row {
+                        .col-md-offset-1 {
+                            content: " ";
+                            display: table;
+                            .tablist {
+                                position: absolute;
+                                margin-top: 32px;
+                                margin-left: -79px;
+                                ul.tabs {
+                                    margin: 0px;
+                                    padding: 0px;
+                                    list-style: none;
+                                    li {
+                                        color: white;
+                                        display: inline-block;
+                                        padding: 10px 15px;
+                                        cursor: pointer;
+                                        background: hsla(0, 0%, 60%, .5);
+                                        border-right: 1px solid white;
+                                        &:hover {
+                                            color: white;
+                                            background: hsla(0, 0%, 60%, .7);
+                                            ;
+                                        }
+                                    }
+                                    li.current {
+                                        background: hsla(0, 0%, 60%, .7);
+                                    }
+                                    li.mid {
+                                        margin-left: -4px;
+                                    }
+                                    li.right {
+                                        margin-left: -5px;
+                                    }
+                                }
+                                .tab-content {
+                                    display: none;
+                                    background: hsla(0, 0%, 60%, .7);
+                                    padding: 15px;
+                                    width: 980px;
+                                    height: 95px;
+                                }
+                                .tab-content.current {
+                                    display: inherit;
+                                }
+                                .tab__banner__innner {
+                                    margin-top: 7px;
+                                    .form-control {
+                                        height: 45px;
+                                        padding: 6px 12px;
+                                        background-color: #fff;
+                                        border: 1px solid #f5f5f5;
+                                        border-radius: 0;
+                                        background-image: none;
+                                        cursor: pointer;
+                                    }
+                                    .tab {
+                                        padding-left: 5px;
+                                        padding-right: 5px;
+                                        margin-bottom: 10px;
+                                    }
+                                    .tab__colum1 {
+                                        width: 408.5px;
+                                        float: left;
+                                    }
+                                    .tab__colum2 {
+                                        width: 199.5px;
+                                        float: left;
+                                        position: relative;
+                                        option {
+                                            border-color: #ec3d79;
+                                        }
+                                        .fa {
+                                            position: absolute;
+                                            top: 16px;
+                                            left: 163px;
+                                            color: #ec3d79;
+                                        }
+                                    }
+                                    .tab__colum3 {
+                                        position: relative;
+                                        float: left;
+                                        width: 199.5px;
+                                        .fa {
+                                            position: absolute;
+                                            top: 16px;
+                                            left: 163px;
+                                            color: #ec3d79;
+                                        }
+                                    }
+                                    .tab__colum4 {
+                                        float: left;
+                                        width: 142.5px;
+                                        .btn {
+                                            width: 100%;
+                                            background-color: #ec3d79;
+                                            border-color: #ec3d79;
+                                            color: #fff;
+                                            transition: all .3s ease-out;
+                                            border-radius: 0;
+                                            height: 45px;
+                                            &:hover {
+                                                background-color: mediumseagreen;
+                                                border: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                #tab-3 {
+                                    .row {
+                                        margin-top: 7px;
+                                        .col-md-10 {
+                                            .form-control {
+                                                height: 45px;
+                                                padding: 6px 12px;
+                                                background-color: #fff;
+                                                border: 1px solid #f5f5f5;
+                                                border-radius: 0 !important;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                        .col-md-2 {
+                                            .btn {
+                                                width: 100%;
+                                                background-color: #ec3d79;
+                                                border-color: #ec3d79;
+                                                color: #fff;
+                                                transition: all .3s ease-out;
+                                                border-radius: 0;
+                                                height: 45px;
+                                                &:hover {
+                                                    background-color: mediumseagreen;
+                                                    border: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }

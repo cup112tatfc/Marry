@@ -1,0 +1,52 @@
+.sub_nav {
+    height: 51px;
+    padding: 15px 0;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eaeaea;
+    .container {
+        .row {
+            .col-xs-4 {
+                width: 33.3333333333%;
+                .site__text {
+                    font-size: 14px;
+                    color: #777;
+                }
+            }
+            .visible-lg {
+                .row {
+                    .col-xs-2 {}
+                    .col-xs-10 {
+                        marquee {
+                            color: #999;
+                            width: 347px;
+                            height: 20px;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+            .text-right {
+                width: 33.3333333333%;
+                .page__verify {
+                    padding-right: 30px;
+                    .fa.fa-phone {
+                        padding-right: 10px;
+                    }
+                    a {
+                        font-size: 14px;
+                        color: #ec3d79;
+                        text-decoration: none;
+                    }
+                    .fa.fa-shield {
+                        position: absolute;
+                        right: 8px;
+                        top: -15px;
+                        padding: 10px 0 0;
+                        font-size: 1.92857142857em;
+                        color: #23cdb7;
+                    }
+                }
+            }
+        }
+    }
+}

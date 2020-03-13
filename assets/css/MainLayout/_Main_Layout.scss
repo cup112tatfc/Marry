@@ -1,0 +1,27 @@
+@import'../Layout/Header';
+@import'../Pages/Services/Services';
+@import'../Layout/Footer';
+@import'../Responsive/Responsive';
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0 10px;
+    background: rgba(236, 61, 121, .5);
+    color: #fff;
+    font-size: 1.7142857143em;
+    text-align: center;
+    z-index: 99;
+    .fa.fa-chevron-up {
+        padding-top: -5px;
+        font-size: 20px;
+        color: white;
+        &:hover {
+            color: #ec3d79;
+        }
+    }
+}
+
+.active {
+    visibility: visible;
+}

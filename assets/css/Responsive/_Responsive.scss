@@ -1,0 +1,154 @@
+@media(max-width:768px) {
+    .header {
+        float: left;
+        width: 100%;
+        top: 0;
+        position: relative;
+        position: fixed;
+        z-index: 100;
+        background: #ffffff;
+        .Toggleslide {
+            display: block;
+            visibility: visible;
+        }
+        .main__container {
+            .main__box {
+                .main__logo {
+                    margin-top: 10px;
+                }
+                .main__menu {
+                    .list__menu {
+                        flex-direction: column;
+                        background: white;
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        width: 100%;
+                        z-index: 100;
+                        display: none;
+                        padding-left: 0;
+                        .list__item {
+                            padding: 10px 0 10px 20px;
+                            display: block;
+                            width: 100%;
+                            padding-left: 0;
+                            &:hover {
+                                background-color: #999999;
+                            }
+                            a:hover {
+                                color: white;
+                            }
+                            .list__link {
+                                width: 100%;
+                                .fa {
+                                    float: right;
+                                    display: block;
+                                }
+                            }
+                        }
+                        .sub__menu {
+                            position: static;
+                            width: 100%;
+                            .sub__item {
+                                .sub__item__link {}
+                            }
+                        }
+                    }
+                }
+                .main__account {
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+    .page {
+        width: 100%;
+        .sub_nav {
+            margin-top: 53px;
+            .container {
+                .row {
+                    .visible-lg {
+                        display: none;
+                    }
+                    .text-right {
+                        .page__verify {
+                            right: -236px;
+                            position: absolute;
+                            .btn-page-verify {
+                                i {
+                                    right: -2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .banner {
+            .cover__inner {
+                .container {
+                    .col-md-offset-1 {
+                        content: " ";
+                        display: table;
+                    }
+                }
+            }
+        }
+    }
+    .post_feature {}
+    .list_post_video {}
+    .content {
+        .container {
+            .row {
+                .col-md-6 {}
+                .col-md-2 {
+                    .content__menu {
+                        .sticky {
+                            position: absolute;
+                            .list__menu {
+                                display: flex;
+                                transform: translate(0, 0);
+                                transform: translate3d(0, 0, 0);
+                                will-change: position, transform;
+                                padding-left: 0px;
+                                flex-direction: column;
+                                background-color: #ffff;
+                                z-index: 100;
+                                li {
+                                    a {
+                                        text-decoration: none!important;
+                                        display: block;
+                                        padding: 10px 0;
+                                        border-bottom: 1px solid #eaeaea;
+                                        color: #999;
+                                        &:hover {
+                                            color: #ec3d79;
+                                        }
+                                        .fa {
+                                            padding-right: 7px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-md-4 {}
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    .container {
+        .row {
+            .col-md-offset {
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+}

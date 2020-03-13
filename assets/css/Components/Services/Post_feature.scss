@@ -1,0 +1,38 @@
+.post_feature {
+    margin: 20px 0 20px 0;
+    .container {
+        .row {
+            .col-md-4 {
+                .post__iteam {
+                    .iteam__img {
+                        position: relative;
+                        &:hover .overlay {
+                            opacity: 0.5;
+                        }
+                        .overlay {
+                            position: absolute;
+                            background: white;
+                            opacity: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .iteam__text {
+                        a {
+                            color: #333;
+                            font-size: 1.1428571429em;
+                            font-weight: 700;
+                            text-decoration: none;
+                            &:hover {
+                                color: #ec3d79;
+                            }
+                        }
+                        i {
+                            color: #777777;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
